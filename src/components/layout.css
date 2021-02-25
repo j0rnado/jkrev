@@ -710,7 +710,7 @@ pre tt:after {
 
 .split-container {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas:
@@ -725,11 +725,12 @@ pre tt:after {
 .buttonJ {
   background: black;
   color: white;
-  fontSize: 2em;
+  height: 50px;
+  fontSize: 0.9rem;
   width: 25vw;
   maxWidth: 25vw;
   minWidth: 25vw;
-  padding: 2vh 2vw 2vh 2vw;
+  padding: 1vh 1vw 1vh 1vw;
   text-align: center;
   margin: 0 0 0 0;
   border: 0 solid black;
@@ -737,12 +738,12 @@ pre tt:after {
   }
   
 .buttonJ:hover {
-  background: #e8de2a;
+  background: #orangered;
   color: black;
   border: 0 solid #e8de2a;
 }
 
-.buttonW {
+.buttonw {
   background: transparent;
   color: white;
   fontSize: 2em;
@@ -757,9 +758,9 @@ pre tt:after {
   }
   
 .buttonw:hover {
-  background: #e8de2a;
-  color: black;
-  border: 1 solid #white;
+  background: white;
+  color: orangered;
+  border: 1 solid orangered;
 }
 
 .foot-container {
@@ -829,6 +830,24 @@ pre tt:after {
 .a { grid-area: a; }
 
 .b { grid-area: b; }
+
+.c { grid-area: c; }
+
+.d { grid-area: d; }
+
+.home-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.a { grid-area: a; width: 50%; height: 50% }
+
+.b { grid-area: b; width: 50%; height: 50% }
 
 .c { grid-area: c; }
 

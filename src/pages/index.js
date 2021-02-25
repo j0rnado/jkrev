@@ -9,59 +9,54 @@ const IndexPage = () => (
     <Layout>
     <SEO title="jordank.co | Homepage" />
 
-<div style={{
+<div className="split-container" style={{
     backgroundImage: `url(${portrait})`, 
     backgroundRepeat: `no-repeat`,
     backgroundPosition: `right bottom`,
-    backgroundSize: `50vh`,
+    backgroundSize: `35vh`,
     height: `100vh`,
-    marginBottom: `0vh`,
+    marginBottom: `vh`,
+    display: `grid`,
+    flexDirection: `row`,
+    justifyContent: `flex-start`,
+  
 
   }}>
-       <div style={{
-             padding: `10vh 3vw 3vh 3vw`,
-             fontSize: `3rem`,
-             lineHeight: `4rem`,
+       <div className="a" style={{
+         padding: `13vh 3vw 3vh 3vw`,
+             fontSize: `2.5rem`,
+             lineHeight: `3rem`,
              fontFamily: `Poppins`,
              fontWeight: `700px`,
-             maxWidth: `100%`,
+             flexDirection: `row`,
+             maxWidth: `50vw`,
+
 
        }}>
     hi, i'm  jordan köerner</div>
-<div className="buttonJ" style={{     
-    color: `white`,
-    padding: `3vh 3vw 3vh 3vw`,
-    fontSize: `1.5rem`,
-    lineHeight: `2rem`,
-    fontFamily: `Poppins`,
-    background: `black`,
-    right: `0`,
-    width: `50%`,
-    textAlign: `center`,
-    display: `flex`,
-    flexDirection: `column`,
-    }}>
+    <h3 className="a"style={{
+      display: `grid`,
+    }}>i manage tech projects</h3>
 
-      i manage technical projects
-      </div>
-      <div className="buttonJ" style={{     
+
+      <div className="a" style={{   
+    flexDirection: `row`,  
     color: `white`,
+    margin: `13vh 3vw`,
     padding: `3vh 3vw`,
     marginBottom: `0`,
     fontSize: `1.25rem`,
     lineHeight: `1.5rem`,
     fontFamily: `Poppins`,
-    background: `black`,
-    left: `0`,
-    width: `50%`,
+    background: `orangered`,
     textAlign: `start`,
-    maxHeight: `40vh`,
+    maxHeight: `30vw`,
+    maxWidth: `50vw`,
     }}>
       <li>mobile apps </li> 
       <li>web development</li>
       <li>e-commerce</li>
       <button className="buttonw" style={{
-        background: `transparent`,
         right: `25px`,
         }}>
           + more</button>

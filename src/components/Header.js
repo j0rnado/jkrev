@@ -7,21 +7,23 @@ import jork from "../images/jork.svg"
 const Header = ({ siteTitle }) => (
 <header style={{ 
   display: `flex`,
+  flexDirection: `row`,
   position: `fixed`, 
   top: `0%`, 
   width: `100%`, 
+  height: `50px`,
   margin: `0`, 
   padding: `0` }}>
       <Link to="/about">
   <button className="buttonJ" style={{
   }}>
-    about me 
+    about 
     </button>
     </Link>
     <Link to="/work" style={{
     }}>
     <button className="buttonJ" >
-      my work 
+       work 
     </button>
     </Link>
 
