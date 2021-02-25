@@ -5,10 +5,11 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 
 const Footer = ({ siteTitle }) => (
-  <footer className="foot-container" style={{ 
+
+  <footer style={{ 
   display: `flex`,
-  width: `50%`, 
-  minHeight: `8vh`,
+  width: `100%`, 
+  minHeight: `50px`,
   bottom: `0`,
   position: `fixed`,
   right: `0`,
@@ -16,30 +17,27 @@ const Footer = ({ siteTitle }) => (
   color: `white`,
   margin: `auto`
   }}>
-<div className="f1" style={{
-    display: `grid`,
-    justifyContent: `flex-end`,
-}}>
-  <h4 style={{
-  display: `grid`,
-  justifyContent: `flex-end`,
-  margin: `0 0 0 0`,
-  padding: `0 0 0 0`,
-    }}>
-GET IN TOUCH    </h4>
-    </div>
-        <a href="tel:+19497719024">
+
+        <a href="tel:+19497719024" style={{
+          color: `white`,
+          textDecoration: `none`,
+
+        }}>949-771-9024
           <FontAwesomeIcon icon={faPhone} size="1x" className="f2" 
           style={{ 
-            justifyContent: `flex-end`,
-            alignItems: `flex-end`,
             color: `white`,
+            marginLeft: `20px`,
+            marginRight: `50px`,
           }} />
           </a>
-        <a href="mailto:jordan@ujely.com">
+        <a href="mailto:jordan@ujely.com" style={{
+                    color: `white`,
+                    textDecoration: `none`,
+                  }}>jordan@ujely.com
         <FontAwesomeIcon icon={faEnvelope} size="1x" className="f3"
         style={{
           color: `white`,
+          marginLeft: `20px`,
         }} />
         </a>
 

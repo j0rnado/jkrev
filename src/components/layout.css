@@ -372,8 +372,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Poppins;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -709,35 +708,58 @@ pre tt:after {
 
 }
 
-.grid-container {
+.split-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
-  min-height: 90vh;
+  grid-template-areas:
+    "a b";
 }
-.left { grid-area: 1 / 1 / 2 / 3; }
-.right { grid-area: 1 / 2 / 2 / 3; }
+
+.a { grid-area: a; }
+
+.b { grid-area: b; }
+
 
 .buttonJ {
   background: black;
   color: white;
   fontSize: 2em;
-  marginBottom: 0;
-  maxWidth: 80%;
-  min-width: 23vw;
+  width: 25vw;
+  maxWidth: 25vw;
+  minWidth: 25vw;
   padding: 2vh 2vw 2vh 2vw;
-  text-align: justify;
+  text-align: center;
   margin: 0 0 0 0;
   border: 0 solid black;
   font-weight: 700;
-
   }
   
 .buttonJ:hover {
   background: #e8de2a;
   color: black;
   border: 0 solid #e8de2a;
+}
+
+.buttonW {
+  background: transparent;
+  color: white;
+  fontSize: 2em;
+  width: 25vw;
+  maxWidth: 25vw;
+  minWidth: 25vw;
+  padding: 2vh 2vw 2vh 2vw;
+  text-align: center;
+  margin: 0 0 0 0;
+  border: 1 solid WHITE;
+  font-weight: 700;
+  }
+  
+.buttonw:hover {
+  background: #e8de2a;
+  color: black;
+  border: 1 solid #white;
 }
 
 .foot-container {
@@ -791,3 +813,23 @@ pre tt:after {
   -webkit-animation-name: bounce;
   animation-name: bounce;
 }
+
+.but-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+}
+
+.a { grid-area: a; }
+
+.b { grid-area: b; }
+
+.c { grid-area: c; }
+
+.d { grid-area: d; }

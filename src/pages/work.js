@@ -6,17 +6,21 @@ import SEO from "../components/seo"
 const Work = () => (
   <Layout>
     <SEO title="Page two" />
-  <h1 style={{
-    padding: `5vh 0vw 5vh 3vw`,
-    color: `black`,
-    fontSize: `2em`,
-    marginBottom: `0`,
-    maxWidth: `80%`,
-  }}>
-    past work
-  </h1>
+    <div style={{
+        background: `#e8de2a`,
+        padding: `10vh 5vw 10vh 5vw`,
+        margin: `10vh 10vw`,
+        fontSize: `2rem`,
+        fontWeight: `700`,
+        fontFamily: `Poppins`,
+        textAlign: `justify`,
+
+    }}>past work</div>
+
+  
 <div className="work-container">
         <div className="work1" style={{
+          textAlign: `right`
         }}>
         <p>
            <ul>sr. project manager</ul>

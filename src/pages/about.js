@@ -10,11 +10,10 @@ const AboutPage = () => (
     <div class="imgwrap" style={{  width: `100%` }}>
     <a href="/">
       <img src={jork} className="animated bounce" alt="jordank.co" style={{ 
-        maxWidth: `60px`, 
+        maxWidth: `20%`, 
         height: `auto`, 
         margin: `auto`, 
         top: `0`,
-        right: `0`,
         position: `absolute`,
 
 

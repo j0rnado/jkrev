@@ -7,11 +7,10 @@ const Work = () => (
   <Layout>
     <SEO title="Page two" />
   <h1 style={{
-    padding: `5vh 0vw 5vh 3vw`,
+    padding: `10vh 0vw 5vh 3vw`,
     color: `black`,
     fontSize: `2em`,
     marginBottom: `0`,
-    maxWidth: `80%`,
   }}>
     services
   </h1>
