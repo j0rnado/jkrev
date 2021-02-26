@@ -709,7 +709,7 @@ pre tt:after {
 }
 
 .split-container {
-  display: grid;
+  display: flex;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
@@ -735,6 +735,7 @@ pre tt:after {
   margin: 0 0 0 0;
   border: 0 solid black;
   font-weight: 700;
+  
   }
   
 .buttonJ:hover {
@@ -845,10 +846,45 @@ pre tt:after {
     "c d";
 }
 
-.a { grid-area: a; width: 50%; height: 50% }
+.a { grid-area: a; }
 
-.b { grid-area: b; width: 50%; height: 50% }
+.b { grid-area: b; }
 
 .c { grid-area: c; }
 
 .d { grid-area: d; }
+
+.flextest {
+  height: 100vh;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: flex-start;
+align-content: stretch;
+padding: 3vh 3vw;
+background: white;
+}
+.tits {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: flex-start;
+align-content: stretch;
+padding: 3vh 3vw;
+background: white;
+}
+
+.flextest2 {
+  height: 50vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: stretch;
+  padding: 3vh 3vw;
+  background: white;
+
+
+
+  
+  }
