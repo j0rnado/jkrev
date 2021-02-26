@@ -4,7 +4,7 @@ import portrait from "../images/portrait2.jpg"
 import SEO from "../components/seo"
 
 
-const Flex = () => (
+const IndexPage = () => (
   <Layout>
   <SEO title="jordank.co | Homepage" />
 <div className="flextest" style={{
@@ -49,4 +49,4 @@ const Flex = () => (
 
 )
 
-export default Flex;
+export default IndexPage;

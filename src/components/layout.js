@@ -31,7 +31,6 @@ const Layout = ({ children }) => {
       <header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          paddingTop: `10vh`,
         }}
       >
         <main>{children}</main>

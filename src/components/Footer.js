@@ -8,25 +8,25 @@ const Footer = ({ siteTitle }) => (
 
   <footer style={{ 
   display: `flex`,
-  width: `100%`, 
-  minHeight: `50px`,
+  width: `20vw`, 
+  height: `50px`,
   bottom: `0`,
+  right: `0`,
   position: `fixed`,
   background: `black`,
   color: `white`,
   margin: `0`,
   flexDirection: `row`,
   flexWrap: `nowrap`,
-  justifyContent: `flex-end`,
+  justifyContent: `center`,
   alignItems: `center`,
-  alignContent: `flex-end`,
-  padding: `0 3vw`,
+  
+  zIndex: `9000000`,
   }}>
 
         <a href="tel:+19497719024" style={{
           color: `white`,
           textDecoration: `none`,
-          marginRight: `50px`,
 
         }}>  <FontAwesomeIcon icon={faPhone} size="1x" className="f2" 
         style={{ 
@@ -34,7 +34,7 @@ const Footer = ({ siteTitle }) => (
           marginLeft: `10px`,
           marginRight: `10px`,
 
-                    }} />949-771-9024
+                    }} />
         
           </a>
         <a href="mailto:jordan@ujely.com" style={{
@@ -46,7 +46,7 @@ const Footer = ({ siteTitle }) => (
           marginLeft: `10px`,
           marginRight: `10px`,
    
-        }} />jordan@ujely.com
+        }} />
   
         </a>
 

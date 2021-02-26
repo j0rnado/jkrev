@@ -3,24 +3,24 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Work = () => (
+const Work2 = () => (
   <Layout>
     <SEO title="Page two" />
     <div className="tits" style={{
+padding: `0`,
   
     }}>
       <h1 style={{
            fontSize: `2rem`,
            fontWeight: `700`,
            fontFamily: `Poppins`,
-           background: `orange`,
+           background: `yellow`,
            color: `white`,
            margin: `0`,
            marginBottom: `10px`,
-           padding: `5vh 5vw`,
+           padding: `20px 20px`,
            textAlign: `right`,
            minWidth: `50vw`,
-
 
     }}>
     past work
@@ -58,4 +58,4 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
+export default Work2

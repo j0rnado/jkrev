@@ -126,7 +126,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;;
   font-weight: 700;
   text-rendering: optimizeLegibility;
@@ -867,8 +867,8 @@ background: white;
 .tits {
 display: flex;
 flex-wrap: nowrap;
-justify-content: space-around;
-align-items: flex-start;
+justify-content: stretch;
+align-items: flex-end;
 align-content: stretch;
 padding: 3vh 3vw;
 background: white;
@@ -878,13 +878,24 @@ background: white;
   height: 50vh;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  align-content: stretch;
-  padding: 3vh 3vw;
+  justify-content: space-evenly;
   background: white;
+  }
+
+  .buttonJ {
+    background-color: transparent; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20vw;
+  }
+
+  .buttonJ:hover {
+    background-color: orange; 
+    color: white;
 
 
-
-  
   }

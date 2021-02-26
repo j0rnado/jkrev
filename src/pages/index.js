@@ -10,7 +10,7 @@ const IndexPage = () => (
 <div className="flextest" style={{
    backgroundImage: `url(${portrait})`, 
    backgroundRepeat: `no-repeat`,
-   backgroundSize: `60vh`,
+   backgroundSize: `400px`,
    backgroundPosition: `bottom center`,
 }}>
 <div className="x" style={{
